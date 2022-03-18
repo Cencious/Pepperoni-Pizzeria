@@ -1,10 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(/Images/pizza3.jpeg);
+    background-image: url(/Images/pizza5.jpg);
     background-size: cover;
-    background-color: rgb(0, 0, 0, 0.2);
     background-attachment: fixed;
-
-
-}
+    }
+*{
+    box-sizing: border-box;
+}    
