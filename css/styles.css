@@ -76,18 +76,19 @@ a{
     display: flex;
     flex-direction: column;
   }
-  .preference h2 {
+  .preference-container-fluid h2 {
     text-align: center;
     margin-top: 30px;
   }
-  .prefence .images {
+  .preference-container-fluid .images{
     display: flex;
     flex: 1;
     justify-content: space-around;
     margin-top: 40px;
     text-align: center;
+    width: 200px;
   }
-  .prefence .images p {
+  .preference .images p {
     padding: 10px;
     text-align: justify;
   }
