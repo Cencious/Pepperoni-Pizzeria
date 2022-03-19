@@ -50,12 +50,44 @@ a{
     height: 200px;
     margin: 10px;
     background-image: url(/Images/rubarb.jpeg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 20px;
-     
+    opacity: 20px; 
 }
 .new-flavor p{
-    color: #f58ca6bd;
+    color: #cf2711;
+    padding: 0px;
+    margin: 0px;
 }
+.new-flavor-alert img{
+    display: flex;
+    width: 100px;
+}
+.icon {
+    width: 30%;
+  }
+  .hidden-p {
+    display: none;
+  }
+  .icons{
+      margin: 5px 20px;
+  }
+  .preference {
+    display: flex;
+    flex-direction: column;
+  }
+  .preference h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .prefence .images {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .prefence .images p {
+    padding: 10px;
+    text-align: justify;
+  }
