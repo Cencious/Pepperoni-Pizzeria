@@ -1,23 +1,30 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
-  /* background-image: url(/Images/pizza5.jpg); */
   height: 100vh;
   width: 100vw;
   background-size: cover;
+  background-color: #7e5d7e;
   position: relative;
   background-attachment: fixed;
+}
+h1{
+  font-family: cursive;
+  font-size: 50px;
+  font-style: italic;
+  color:  rgb(88, 4, 21);
 }
 .home-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 30px;
-  background-color: #c58234;
+  background-color: #c7baab;
 }
-.home-content {
+/* .home-content { */
   height: 60px;
   justify-content: space-between;
   align-items: center;
@@ -44,29 +51,29 @@ body {
   background-size: cover;
   opacity: 40;
 }
-.new-flavor p{
-    color:rgba(1, 4, 5, 0.923) ;
-    font-weight: bolder;
-}.new-flavor button{
-    color: tomato;
+.new-flavor p {
+  color: rgba(1, 4, 5, 0.923);
+  font-weight: bolder;
 }
-.preference{
-    display: flex;
-    flex-direction: column;
+.new-flavor button {
+  color: tomato;
 }
-.icons{
-    margin: 5px 20px;
+.preference {
+  display: flex;
+  flex-direction: column;
 }
-.preference-image{
-    display: flex;
-    flex-direction: column;
+.icons {
+  margin: 5px 20px;
+}
+.preference-image {
+  display: flex;
+  flex-direction: column;
 }
 .hidden-p {
-    display: none;
-    }
-
-    .image-hide{
-      width: 200px;
-      height: 200px;
-    border-radius: 100px;
-    }
+  display: none;
+}
+.image-hide {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
