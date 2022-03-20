@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pepperoni-Pizzeria</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -13,7 +13,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    ">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!---start content -->
@@ -28,67 +28,78 @@
             <li><a href="#">CONTACT US</a></li>
           </ul>
         </div>
-        <br>
+        <br />
         <!--cart-->
         <div class="cart">
-          <img src="/Images/cart1.png" alt="cart" />
+          <img src="/Images/cart1.png" alt="cart" width="30" />
           <a href="#">Cart</a>
         </div>
       </div>
     </div>
     <!-----navigation left end-->
-    <div class="bucket-container">
+    <div class="bucket container-fluid">
       <div class="new-flavor-alert">
-        <img src="/Images/whats new2.jpeg" alt="">
+        <img src="/Images/whats new2.jpeg" alt="" width="70" />
       </div>
       <div class="new-flavor">
-        <!----row1-->
-        <div class="first-row">
-          <p>Grilled honey chicken</p>
-          <p> bbq sauce</p>
-          <button>Hot & Spicy</button>
-        </div>
+        <p>Grilled honey chicken</p>
+        <p>Rubarb bbq sauce</p>
+        <button>Hot & Spicy</button>
       </div>
     </div>
-    <div class="prefence-container-fluid">
-        <h2>PREFERENCE</h2>
-        <div class="images">
-            <div class="icons">
-                <div class="preference-image">
-                    <img src="/Images/pizza3.jpeg" alt="" width="200" height="150">
-                    <h3>PIZZA SIZES</h3>
-                    <div class="hidden-p">
-                        <h4>PIZZA SIZES</h4>
-                        <P>We avail different sizes of pizza for your own preference.</P>
-                    </div>
-                </div>
-            </div>
-            <div class="icons">
-                <div class="preference-image">
-                    <img src="/Images/toppings.jpg" alt="" width="200" height="150">
-                    <h3>TOPPINGS</h3>
-                    <div class="hidden-p">
-                        <h4>TOPPINGS</h4>
-                        <P>Several toppings that you can choose from to ensure you enjoy your pizza to the fullest.</P>
-                    </div>
-                </div>
-            </div>
-            <div class="icons">
-                <div class="preference-image">
-                    <img src="/Images/crust1.jpeg" alt="" width="200" height="150">
-                    <h3>CRUST</h3>
-                    <div class="hidden-p">
-                        <h4>CRUST</h4>
-                        <P>We give you the chance to pick on your preferred kind of crust for your pizza.</P>
-                    </div>
-                </div>
-            </div>
-
+    <div class="preference container-fluid d-flex">
+      <h2>PREFERENCE</h2>
+      <div class="images">
+        <div class="icons">
+          <div class="preference-image">
+            <h3>PIZZA SIZES</h3>
+            <img class="image-hide" src="/Images/pizza3.jpeg" alt="" />
+          </div>
+          <div>
+            <select name="pizza-size" id="pizza-size" class="form-control">
+              <option value="500">Small</option>
+              <option value="700">Medium</option>
+              <option value="1000">Large</option>
+            </select>
+          </div>
         </div>
+        <div class="icons">
+          <div class="preference-image">
+            <h3>TOPPINGS</h3>
+            <img class="image-hide" src="/Images/toppings.jpg" alt="" />
+            
+            <div>
+              <select name="topping" id="topping" class="form-control">
+                <option value="100">Onion</option>
+                <option value="150">Veges</option>
+                <option value="200">Pineapple</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="preference-image">
+            <h3>CRUST</h3>
+            <img class="image-hide" src="/Images/crust1.jpeg" alt="" />
+            
+            <div>
+              <select name="crust" id="crust" class="form-control">
+                <option value="150">Thin Crust</option>
+                <option value="200">Thick Crust</option>
+                <option value="250">Cheese-stuffed</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-warning">Add To Cart</button>
+      </div>
     </div>
 
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <script src="/js/script.js"></script>
   </body>
 </html>
