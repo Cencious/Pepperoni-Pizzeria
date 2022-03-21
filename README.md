@@ -1,5 +1,5 @@
 # Pepperoni-Pizzeria
-##A pizza web application where customers order different sizes of pizza and get to select preferred toppings and crust.21/03/2022
+##A pizza web application where customers order different sizes of pizza and get to select preferred toppings and crust.18/03/2022
 ### By Kakan Innoncencia
 ## Setup/Installation Requirements
 * A web browser
