@@ -33,8 +33,6 @@ li a{
   padding: 16px 18px;
   text-decoration:none;
 }
-
-
 .home-container {
   display: flex;
   flex-direction: column;
