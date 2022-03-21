@@ -52,17 +52,17 @@
     <div class="Home">
       <h2><strong>Welcome To Pepporoni Pizzeria <br>for all your delicious Pizzas</strong></h2>
     </div>
-    <div class="preference container-fluid d-flex">
+    <div class="preference container-fluid d-flex w-50">
         <div class="icons">
           <div class="preference-image">
             <h3>PIZZA SIZES</h3>
             <img class="image-hide" src="/Images/pizza3.jpeg" alt="" />
           </div>
-          <div>
+          <div class="sel">
             <select name="pizza-size" id="pizza-size" class="form-control">
-              <option value="500">Small</option>
-              <option value="700">Medium</option>
-              <option value="1000">Large</option>
+              <option value="500">Small@500</option>
+              <option value="700">Medium@700</option>
+              <option value="1000">Large@1000</option>
             </select>
           </div>
         </div>
@@ -70,32 +70,69 @@
           <div class="preference-image">
             <h3>TOPPINGS</h3>
             <img class="image-hide" src="/Images/toppings.jpg" alt="" />
-            
-            <div>
+          </div>
+          <div class="sel">
               <select name="topping" id="topping" class="form-control">
-                <option value="100">Onion</option>
-                <option value="150">Veges</option>
-                <option value="200">Pineapple</option>
+                <option value="100">Onion@100</option>
+                <option value="150">Veges@150</option>
+                <option value="200">Pineapple@200</option>
               </select>
             </div>
-          </div>
         </div>
         <div class="icons">
           <div class="preference-image">
             <h3>CRUST</h3>
             <img class="image-hide" src="/Images/crust1.jpeg" alt="" />
-            
-            <div>
+          </div>
+          <div class="sel">
               <select name="crust" id="crust" class="form-control">
-                <option value="150">Thin Crust</option>
-                <option value="200">Thick Crust</option>
-                <option value="250">Cheese-stuffed</option>
+                <option value="150">Thin Crust@150</option>
+                <option value="200">Thick Crust@200</option>
+                <option value="250">Cheese-stuffed@250</option>
               </select>
             </div>
-          </div>
         </div>
-        <button type="button" class="btn btn-warning">Add To Cart</button>
+        <button type="button" class="btn btn-warning mb-3" id="add-to-cart" >Add To Cart</button>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Order No.</th>
+      <th scope="col">Pizza Size</th>
+      <th scope="col">Crust</th>
+      <th scope="col">Topping</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+  </tbody>
+</table>
+        <!-- <div class="cdata-overlay">
+          <div class="customerdata row">
+              <div class="col-sm-3"></div>
+                <form action="" class="form-group col-sm-6 data">
+                  <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                  <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                </form>
+  
+              <div class="col-sm-3"></div>
+          </div>
+        </div> -->
+      <!-- <div class="d-block mx-auto text-center">
+          <button class='deliver'>Make Delivery</button>
+          <button class='delivernote'>Pick Up</button>
+      </div> -->
     </div>
+      <div class="card-footer" id="Contacts">
+        <h5>Contacts</h5>
+        <div class="social-platforms">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i>  </a>
+          <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i>  </a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i>  </a>
+        </div>
+
+      </div>
+
+   
     
 
     <script
