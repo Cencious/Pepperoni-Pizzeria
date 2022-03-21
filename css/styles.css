@@ -11,27 +11,27 @@ body {
   position: relative;
   background-attachment: fixed;
 }
-h1{
+h1 {
   font-family: cursive;
   font-size: 50px;
   font-style: italic;
-  color:  rgb(88, 4, 21);
+  color: rgb(88, 4, 21);
 }
-nav ul{
+nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
   font-weight: bolder;
   background-color: rgb(241, 241, 139);
 }
-ul li{
+ul li {
   display: inline;
 }
-li a{
-  color:rgb(148, 5, 5) ;
+li a {
+  color: rgb(148, 5, 5);
   text-align: center;
   padding: 16px 18px;
-  text-decoration:none;
+  text-decoration: none;
 }
 .home-container {
   display: flex;
@@ -40,45 +40,24 @@ li a{
   height: 30px;
   background-color: #c7baab;
 }
-/* .home-content { */
-  height: 60px;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px 12px;
-}
 .menu {
   display: flex;
   justify-content: space-between;
   margin: 40px;
 }
-.cart img{
+.cart img {
   display: flex;
-  flex-direction: ;
   text-decoration: none;
 }
-.Home{
+.Home {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
   text-align: center;
   color: rgb(10, 1, 1);
+  margin-top: 40px;
 }
-/* .new-flavor { */
-  width: 250px;
-  height: 200px;
-  margin: 10px;
-  background-image: url(./Images/rubarb.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 40;
-}
-/* .new-flavor p { */
-  color: rgba(1, 4, 5, 0.923);
-  font-weight: bolder;
-}
-/* .new-flavor button { */
-  color: tomato;
-}
+
 .preference {
   display: flex;
   flex-direction: column;
@@ -90,12 +69,23 @@ li a{
 .preference-image {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .hidden-p {
   display: none;
 }
 .image-hide {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.sel {
+  padding: 10px;
+}
+
+.check-out {
+  display: none;
+}
+.deliver-msg {
+  display: none;
 }
