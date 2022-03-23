@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+
 }
 body {
   height: 100vh;
   width: 100vw;
+  background-image: url("/Images/pizzanew.jpeg");
+
   background-size: cover;
-  background-color: #7e5d7e;
+  /* background-color: #71851c7e; */
   position: relative;
   background-attachment: fixed;
 }
